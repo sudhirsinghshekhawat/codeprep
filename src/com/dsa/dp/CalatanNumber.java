@@ -5,11 +5,13 @@ public class CalatanNumber {
 
     public static void main(String[] args) {
 
-        System.out.println("Calatan Number : " + calatanNumber(3));
-
-
-
+       System.out.println("Calatan Number : " + calatanNumber(3));
     }
+
+
+
+
+
 
 
 

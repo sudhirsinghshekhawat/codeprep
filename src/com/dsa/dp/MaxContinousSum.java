@@ -17,7 +17,7 @@ public class MaxContinousSum {
 
 
 
-    //maxSum3 using DP
+    //maxSum3 using DP O(n)
     public  static int maxContinousSum3(int[] arr)
     {
         int maxSum = arr[0],sum = 0;
@@ -25,7 +25,7 @@ public class MaxContinousSum {
         for (int i=0;i<arr.length;i++)
         {
             sum = Math.max(sum+arr[i],arr[i]);
-            maxSum = Math.max(maxSum,sum);
+            maxSum = Math.  max(maxSum,sum);
         }
         return  maxSum;
     }

@@ -1,6 +1,7 @@
  
         *.0
-        .idea/
+        .idea
+        target
         datastructure.iml
         gc-24811-2019-09-19_08-49-05.log
         out/
