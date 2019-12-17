@@ -8,7 +8,7 @@ public class DynamicArray<String> {
     DynamicArray(int initialCapacity)
     {
         this.initialCapacity = initialCapacity;
-        data = new String[initialCapacity];
+        data = new Object[initialCapacity];
     }
 
     public String get(int index)
