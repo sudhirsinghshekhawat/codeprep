@@ -26,6 +26,8 @@ public class RotateArray
 
         int rotatedArray[] = new int[arr.length];
 
+        System.out.println("suhirls");
+
         for (int i=0;i<k;i++)
         {
             rotatedArray[i] = arr[arr.length-k+i];
